@@ -1,9 +1,9 @@
 # Package: libs/my_driver/myadc
 
 syscfg.defs:
-    ADC_0:
-        description: 'TBD'
-        value:  1
+#    ADC_0:
+#        description: 'TBD'
+#        value:  1
     ADC_0_RESOLUTION:
         description: 'TBD'
         value: 'SAADC_CONFIG_RESOLUTION'
