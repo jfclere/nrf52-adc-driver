@@ -8,19 +8,18 @@ Make the upstream repos available locally in your project.yml
 
 project.repositories:
     - apache-mynewt-core
-    - mynewt_nordic
-    - mynewt-nrf52-adc-driver
+    - nrf52-adc-driver
 
-repository.mynewt-nrf52-adc-driver:
+repository.nrf52-adc-driver:
     type: github
-    vers: 0-latest
-    user: davidgs
-    repo: mynewt-nrf52-adc-driver
+    vers: 0.0.0
+    user: jfclere
+    repo: nrf52-adc-driver
 ```
 
 Then add the packge to your projects pkg.yml
 ```
-    - "@mynewt-nrf52-adc-driver/libs/adc_nrf52_driver"
+    - "@nrf52-adc-driver/libs/adc_nrf52_driver"
 ```
 
 Then override the adc settings in your app or target syscfg.yml
