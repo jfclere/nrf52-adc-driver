@@ -16,7 +16,7 @@
 # specific language governing permissions and limitations
 # under the License.
 #
-pkg.name: libs/my_driver/myadc
+pkg.name: nrf52-adc-driver
 pkg.description: adc driver for the NRF52.
 pkg.author: "Apache Mynewt <dev@mynewt.incubator.apache.org>"
 pkg.homepage: "http://mynewt.apache.org/"
