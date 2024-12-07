@@ -25,4 +25,4 @@ pkg.keywords:
 
 pkg.deps:
     - "@apache-mynewt-core/kernel/os"
-    - "@mynewt_nordic/hw/drivers/adc/adc_nrf52"
+    - "@apache-mynewt-core/hw/drivers/adc/adc_nrf52"
